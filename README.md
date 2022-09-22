@@ -93,7 +93,7 @@ Homepagina
   ### de hele pagina: 
   <img src="images/Schermafbeelding%202022-09-22%20om%2016.00.48.png">
   
-    <img src="images/Schermafbeelding%202022-09-22%20om%2016.05.18.png">
+    <img src="images/Schermafbeelding%202022-09-22%20om%2016.41.06.png">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
