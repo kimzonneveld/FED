@@ -90,15 +90,16 @@ Homepagina
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="images/Schermafbeelding%202022-09-22%20om%2016.00.48.png">
+  ### eerste helft homepagina: 
+  <img src="images/breakdown1.png">
   
-    <img src="images/Schermafbeelding%202022-09-22%20om%2016.41.06.png">
+  ### tweede helft homepagina:
+    <img src="images/breakdown2.png">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel: detailpagina 
+  ### Detailpagina 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
@@ -113,7 +114,7 @@ Homepagina
   <summary>uitwerken voor 1e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig geweest met het hamburger menu. Dit vind ik nog best lastig namelijk dus hier had ik veel aan.
 
 
   ### Agenda voor meeting
@@ -128,10 +129,9 @@ Homepagina
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - html afmaken
+  - dropdown menu behandeld
+  - screenreader test maken
 
 </details>
 

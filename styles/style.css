@@ -37,3 +37,6 @@ body {
   background-color:var(--color-background);
 }
 
+nav {
+    background-color: black;
+}
