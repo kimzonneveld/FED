@@ -40,11 +40,11 @@ https://www.asos.com/nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina
-<img src="readme-images/homepagina.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/homepagina.jpg" alt="homepagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Detailpagina  
-  <img src="readme-images/detailpagina.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/detailpagina.jpg" alt="detailpagina>
  
 </details>
 
@@ -91,16 +91,16 @@ Homepagina
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### eerste helft homepagina: 
-  <img src="images/breakdown1.png">
+  <img src="readme-images/breakdown1.png">
   
   ### tweede helft homepagina:
-    <img src="images/breakdown2.png">
+    <img src="readme-images/breakdown2.png">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### Detailpagina 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/detailpaginabreakdown.png" alt="detailpagina">
 
 </details>
 
@@ -145,13 +145,13 @@ Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig g
   <summary>uitwerken voor 2e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb mijn HTML af voor mijn homepagina en een klein stukje CSS. Ik vind het nog best lastig en ben nu voornamelijk bezig met het menu. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Niga      | Thomas          | Ralph    | Kim       |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
