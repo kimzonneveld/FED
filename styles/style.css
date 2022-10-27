@@ -1,12 +1,18 @@
 /**************/
+
 /* CSS REMEDY */
+
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-button, summary {
-	cursor: pointer;
+button,
+summary {
+    cursor: pointer;
 }
 
 
@@ -14,30 +20,254 @@ button, summary {
 
 
 /*********************/
+
 /* CUSTOM PROPERTIES */
+
 /*********************/
+
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+    /* startje */
+    --color-text: #111;
+    --color-background: #eee;
 }
 
+button {
+    border: none;
+    background-color: unset;
+}
 
+img {
+    width: 100%;
+}
 
 
 
 /****************/
+
 /* JOUW STYLING */
+
 /****************/
 
 /* jouw code */
 
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
 }
 
-nav {
-    background-color: #2d2d2d;
+ul {
+    list-style: none;
+}
+
+/* lettertype voor de p'tjes*/
+
+p {
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+
+}
+
+h2 {
+
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+    color: black;
+
+}
+
+/* roze achtergrondkleur banner*/
+
+header {
+    background-color: #2D2E2D;
+
+}
+
+nav > button:first-of-type {
+    height: 2.5em;
+    margin: 1em 0em 1em 1em;
+}
+
+nav button:first-of-type img {
+    height: 100%;
+}
+
+header > ul:nth-of-type(1) {
+    width: 13em;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header > img {
+    width: 4em;
+}
+
+/* kleuren omdraaien*/
+
+header img {
+    filter: invert(1);
+}
+
+header > button {
+    order: -100;
+    height: 2em;
+    margin-left: 1em;
+
+}
+
+header > button img {
+    height: 100%;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: white;
+
+
+
+
+    transform: translateX(-100%);
+    transition-duration: 0.5s;
+}
+
+header nav.open {
+    transform: translateX(0%);
+}
+
+header nav img {
+    filter: invert(0);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+section:first-of-type {
+    background-color: #E73E5F;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+
+}
+
+em {
+    font-family: 'futura-pt', sans-serif;
+
+    font-weight: bold;
+
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2em;
+
+
+}
+
+section:nth-of-type(2) {
+    text-align: center;
+    position: relative;
+
+}
+
+section:nth-of-type(2) button {
+    text-transform: uppercase;
+    background-color: black;
+    font-family: 'futura-pt', sans-serif;
+
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+
+
+}
+
+section:nth-of-type(2) h2 {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align:center;
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+
+}
+
+section:nth-of-type(3) ul {
+    width: 23em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+
+
+
+}
+
+section:nth-of-type(3) ul > li {
+
+    display: grid;
+
+
+}
+
+section:nth-of-type(3) img {
+    grid-row-start: 1;
+}
+
+section:nth-of-type(4) h2 {
+    text-transform: uppercase;
+
+}
+
+section:nth-of-type(4) ul {
+    width: 20em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+section:nth-of-type(5) {
+    text-transform: uppercase;
+    display:flex;
+    flex-direction: column;
+
+}
+
+section:nth-of-type(5) article {
+    display: flex;
     
 }
+
