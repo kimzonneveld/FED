@@ -1,21 +1,212 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Detailpagina</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="author" content="Kim Zonneveld">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Productpagina - Asos</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/pfz6puw.css">
+
+    <link href="styles/styleDetail.css" rel="stylesheet">
+
+    <link href="styles/style.css" rel="stylesheet">
+
+
+    <link rel="icon" type="image/svg+xml" href="images/faviconasos.svg">
 </head>
 
 <body>
-	<h1>Howdy FED2223</h1>
 
-	<script defer src="scripts/script.js"></script>
+    <header>
+
+        <!-- logo van asos -->
+        <a href="index.html">
+    <img src="images/asoslogo.svg" alt="logo Asos">
+</a>
+        <!-- hamburger menu -->
+        <button aria-label="mopenmenu">
+     <img src="images/noun-menu-hamburger-3144393%20(1).png" alt="hamburger menu">
+    </button>
+        <nav>
+
+            <!-- uitklapmenu -->
+            <button>     <img src="images/noun-cross-1208142%20(1).png" alt="menusluiten"></button>
+
+            <ul>
+                <li><a href="#">Startpagina</a></li>
+                <li><a href="#">Tot 50% korting</a></li>
+                <li><a href="#">Tot -80%</a></li>
+                <li><a href="#">Nieuw</a></li>
+                <li><a href="#">Kleding</a></li>
+                <li><a href="#">Jurken</a></li>
+                <li><a href="#">Schoenen</a></li>
+                <li><a href="#">Sportkleding</a></li>
+                <li><a href="#">Accessoires</a></li>
+                <li><a href="#">Studentenstijl</a></li>
+            </ul>
+        </nav>
+
+        <!-- iconen Sanne -->
+        <ul>
+            <li>
+
+                <button aria-label="Zoeken">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 17 17">
+					<path class="icon" d='M7.65 15.3a7.65 7.65 0 115.997-2.9c-.01.012 3.183 3.297 3.183 3.297l-1.22 1.18s-3.144-3.283-3.154-3.275A7.618 7.618 0 017.65 15.3zm0-2a5.65 5.65 0 100-11.3 5.65 5.65 0 000 11.3z' />
+				</svg>		
+			</button>
+            </li>
+            <li>
+                <button aria-label="Account">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="21" height="21" viewBox="0 0 18 21">
+					<circle class="icon" cx='6.5' cy='6.5' r='1.5' />
+					<circle class="icon" cx='11.5' cy='6.5' r='1.5' />
+					<path class="icon" d='M4.337 18.894c.02.036.47.041.5-.008.812-1.319 3.104-1.319 3.912-.003l.05.08c.03.05.476.05.506 0l.048-.077c.81-1.319 3.103-1.319 3.914 0 .03.05.48.044.5.008.72-1.276 1.156-2.616 1.294-3.943l.038-.55a151.892 151.892 0 00.142-2.452c.04-.83.063-1.522.063-2.022 0-1.445-.3-3.193-1.023-4.662C13.253 3.177 11.549 2 8.882 2c-2.665 0-4.37 1.18-5.399 3.276-.722 1.47-1.022 3.22-1.022 4.65 0 .481.044 1.171.123 2.008a81.335 81.335 0 00.348 2.953c.206 1.37.678 2.718 1.405 4.007zm-1.404-4.003l-.002-.01a10.654 10.654 0 00.002.01zm-1.98.287l-.078-.58a83.313 83.313 0 01-.282-2.475 24.637 24.637 0 01-.132-2.196c0-1.71.349-3.745 1.227-5.533C3.038 1.645 5.414 0 8.882 0c3.469 0 5.844 1.64 7.193 4.382.88 1.787 1.229 3.82 1.229 5.545 0 .538-.023 1.258-.065 2.118a116.298 116.298 0 01-.145 2.489c-.017.26-.03.454-.041.592-.17 1.636-.691 3.239-1.544 4.75-.773 1.372-3.123 1.398-3.946.057-.03-.048-.477-.048-.506 0l-.048.078c-.81 1.319-3.103 1.319-3.912.003l-.05-.08c-.03-.05-.476-.05-.506 0-.824 1.34-3.173 1.314-3.946-.057a13.68 13.68 0 01-1.642-4.699z' />
+				</svg>
+			</button>
+            </li>
+            <li>
+                <button aria-label="favorieten">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 20 18">
+					<path class="icon" d='M10.618 15.474a21.327 21.327 0 003.137-2.076c2.697-2.166 4.249-4.619 4.245-7.299-.003-2.284-1.757-4.101-3.881-4.099-1.016 0-1.97.417-2.69 1.158l-1.43 1.467-1.432-1.463a3.748 3.748 0 00-2.695-1.151C3.749 2.013 1.998 3.837 2 6.12c.003 2.677 1.559 5.123 4.256 7.281a21.32 21.32 0 003.756 2.39c.191-.096.394-.202.606-.318zM9.996 1.763l.203-.2A5.726 5.726 0 0114.116 0c3.246-.004 5.88 2.725 5.884 6.097C20.01 13.845 10.014 18 10.014 18S.01 13.87 0 6.124C-.003 2.752 2.624.014 5.87.01a5.733 5.733 0 013.92 1.554l.205.199z' />
+				</svg>
+			</button>
+            </li>
+            <li>
+                <button aria-label="winkelwagen">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 20 20">
+					<path class="icon" d='M18 17.987V7H2v11l16-.013zM4.077 5A5.996 5.996 0 0110 0c2.973 0 5.562 2.162 6.038 5H20v14.986L0 20V5h4.077zm9.902-.005C13.531 3.275 11.86 2 10 2 8.153 2 6.604 3.294 6.144 4.995c.92 0 7.654.03 7.835 0z' />
+				</svg>
+			</button>
+            </li>
+        </ul>
+
+
+    </header>
+
+    <main>
+    <section>
+
+
+        <h1>Yours - Sandalen met bandjes, hak en plateauzool in zwart</h1>
+        <p>€52,99</p>
+        <img src="images/sandalen.jpeg" alt="sandalen met bandjes">
+
+
+        <p><em><span>Nieuw hier?</span> Download & reken af op de app voor 20% korting op alle items* met code: <strong>helloapp</strong></em></p>
+        <h2>Kleur: <span>zwart</span></h2>
+        <h2>Maat:</h2>
+        <select name="Selecteer" id="selecteer maat">
+            <option value="">EU 35,5</option>
+            <option value="">EU 37</option>
+            <option value="">EU 38</option>
+            <option value="">EU 39</option>
+            <option value="">EU 40,5</option>
+        </select>
+        <button> <p>In winkelmand</p></button>
+    </section>
+
+    <section>
+        <h2>onze voorwaarden</h2>
+
+        <ul></ul>
+        <li>Gratis bezorging.</li>
+        <li>Gratis retourneringen.</li>
+        <li>Algemene voorwaarden van toepassing. Meer bezorginformatie</li>
+    </section>
+
+    <section>
+        <h2>Productdetails</h2>
+        <h3>
+            Productdetails
+        </h3>
+        <p>Schoenen van Yours</p>
+        <ul>
+            <li>Het is tijd voor blote tenen</li>
+            <li>Design met bandjes</li>
+            <li>Gespsluiting</li>
+            <li>Blote tenen</li>
+            <li>Halfhoge blokhak</li>
+
+        </ul>
+
+        <h3>Productcode</h3>
+        <p>123274365</p>
+
+        <h3>Merk</h3>
+        <p>Maak garderobe dilemma's verleden tijd dankzij kledingmerk Yours. Met losse basis items die de hele dag (en nacht) werken en comfortabele combinaties om in te chillen, heeft de plussize-reeks van het merk stijlen voor elke gelegenheid. Vind alles van klassieke mom jeans, joggingbroeken en sweatshirts tot de nieuwe lange jurken en T-shirts met print in onze Yours in de ASOS collectie. We houden ook van de lingerie en nachtkleding collectie.</p>
+
+        <h3>Zorg voor mij</h3>
+        <p>Niet wassen</p>
+
+        <h3>Over mij</h3>
+        <p>Glanzend, satijnachtig bovenwerk</p>
+        <p>voering: 100% overige materialen. Zool: 100% overige materialen. Bovenwerk: 100% overige materialen.</p>
+
+        <button>Toon minder</button>
+    </section>
+
+    <section>
+        <h2>Dit vind je misschien ook leuk</h2>
+        <p>Meer informatie over hoe deze producten worden gesorteerd</p>
+
+        <ul>
+            <li>
+               <h3>Pimkie</h3>
+                <img src="images/vindikleuk.jpeg" alt="pimkie schoenen">
+                <p>€52,99</p>
+            </li>
+            <li>
+                <h3>New Look</h3>
+                <img src="images/vindikleuk2.jpeg" alt="New look schoenen">
+                <p>€39,99</p>
+            </li>
+            <li>
+                <h3>Pimkie</h3>
+                <img src="images/vindikleuk3.jpeg" alt="New look schoenen">
+                <p>€41,99</p>
+            </li>
+            <li>
+                <h3>Stradivarius</h3>
+                <img src="images/vindikleuk4.jpeg" alt="stradivarius schoenen">
+                <p>€39,99</p>
+            </li>
+            <li>
+               <h3>New Look</h3>
+                <img src="images/vindikleuk5.jpeg" alt="new look schoenen">
+                <p>€39,99</p>
+            </li>
+            <li>
+                <h3>Stradivarius</h3>
+                <img src="images/vindikleuk6.jpeg" alt="stradivarius schoenen">
+                <p>€39,99</p>
+            </li>
+        </ul>
+    </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>© 2022 Asos</p>
+
+        <a href="#">
+            <p>Asos gegevens | Privacy and Cookies</p>
+        </a>
+
+        <a href="#">
+            <p>Algemene Voorwaarden</p>
+        </a>
+    </footer>
+
+
+    <script defer src="scripts/script.js"></script>
 </body>
-	
+
+
+
 </html>

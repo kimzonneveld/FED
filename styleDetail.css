@@ -1,0 +1,383 @@
+/**************/
+
+/* CSS REMEDY */
+
+/**************/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+
+}
+
+button,
+summary {
+    cursor: pointer;
+}
+
+
+
+
+
+/*********************/
+
+/* CUSTOM PROPERTIES */
+
+/*********************/
+
+* {
+    padding: 0;
+}
+
+:root {
+    /* startje */
+    --color-text: #111;
+    --color-background: #fff;
+}
+
+
+button {
+    border: none;
+    background-color: unset;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+/****************/
+
+/* JOUW STYLING */
+
+/****************/
+
+/* jouw code */
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-background);
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    padding-left: 0.5em;
+}
+
+
+
+/****************/
+
+/* lettertype voor de h1 */
+
+/****************/
+
+h1 {
+
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+    font-size: 18px;
+
+    font-style: normal;
+    color: black;
+    padding-left: 0.5em;
+    margin-bottom: 0em;
+
+
+}
+
+/****************/
+
+/* lettertype voor de h2 */
+
+/****************/
+
+h2 {
+
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+    color: black;
+    padding-left: 0.5em;
+
+}
+
+h3 {
+
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+    color: dimgray;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+}
+/****************/
+
+/* lettertype voor de p'tjes */
+
+/****************/
+
+p {
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    padding-left: 0.5em;
+
+}
+
+/****************/
+
+/* lettertype voor de em */
+
+/****************/
+
+em {
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    padding-left: 0.5em;
+}
+
+
+
+/****************/
+
+/* Eerste sectie */
+
+/****************/
+
+section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+
+}
+
+section:nth-of-type(1) h2 {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    
+
+}
+
+section:nth-of-type(1) h2  span{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+section:nth-of-type(1) img {
+    order: -1;
+}
+
+section:nth-of-type(1) > p {
+    font-weight: 600;
+    color: dimgrey;
+
+}
+
+section button:nth-of-type(1) p {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+section:nth-of-type(1)  em  {
+    background-color: #CCE1F4;
+    padding: 1em;
+    display: block;
+
+}
+
+section:nth-of-type(1)  em  strong {
+    text-transform: uppercase;
+}
+
+section:nth-of-type(1)  em  span {
+    text-transform: uppercase;
+}
+section:nth-of-type(1) button:nth-of-type(1) {
+    background-color: #3B854F;
+    height: 3em;
+    width: 33em;
+    margin: auto;
+   
+
+}
+
+section:nth-of-type(1) button:nth-of-type(1):hover {
+    background-color: black;
+
+}
+
+
+section:nth-of-type(2) {
+    border: solid 0.1em #EEEEEE;
+    list-style: none;
+    
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    padding-left: 3em;
+    padding-bottom: 1em;
+    
+    
+    
+
+}
+
+section:nth-of-type(2) h2 {
+    position: absolute;
+    left: -9999em;
+}
+
+
+
+section:nth-of-type(2) ul {
+    font-weight: 400;
+    font-size: 14px;
+    color: dimgrey;
+    
+}
+
+section:nth-of-type(2) p {
+    font-weight: 400;
+    font-size: 14px;
+    color: dimgrey;
+}
+
+section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(3) h2 {
+    position: absolute;
+    left: -9999em;
+}
+
+}
+section:nth-of-type(3) h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+    text-transform: uppercase;
+    
+}
+
+section:nth-of-type(3) ul {
+    font-family: futura-pt, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+    color: black;
+    padding-left: 1.5em;
+    list-style: inherit;
+}
+
+section:nth-of-type(3) button {
+        font-family: futura-pt, sans-serif;
+
+    font-weight: 600;
+
+    font-style: normal;
+    color: black;
+    text-transform: uppercase;
+    border: solid 0.1em #DDDDDD;
+    height: 3em;
+    width: 20em;
+    margin: auto;
+    
+    
+}
+
+section:nth-of-type(3) button:hover {
+    background-color: black;
+    color: white;
+}
+
+section:nth-of-type(4) h2 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+
+section:nth-of-type(4) p {
+    color: dimgray;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+section:nth-of-type(4)> p {
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+section:nth-of-type(4)  h3 {
+    color: black;
+    font-weight: 400;
+    text-transform: capitalize;
+    order: 1;
+    font-size: 16px;
+    margin-top: 0em;
+    
+}
+
+
+section:nth-of-type(4) ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr)); 
+    grid-gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+section:nth-of-type(4) ul li {
+    display: flex;
+    flex-direction: column;
+
+}
+/****************/
+
+/* Footer */
+
+/****************/
+
+footer {
+    background-color: #DDDDDD;
+    text-align: end;
+}
+
+footer a:first-of-type {
+    text-align: left;
+}

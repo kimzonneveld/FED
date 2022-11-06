@@ -59,9 +59,8 @@ Homepagina
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Niet alle linkjes hebben een naam. Bijvoorbeeld bij merken die trending zijn, zegt hij bij de ene wel de naam en bij de ander "link". 
+  Voor de rest werkt de screenreader op de website goed. 
 
 
   #### Muis en Toetsenbord 
@@ -71,13 +70,15 @@ Homepagina
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ Knoppen zijn prima te bedienen met het shock apparaat. Heb het wel op de laagste stand uitgeprobeerd. Misschien als hij op de hoogste stand staat dat de knoppen iets groter moeten. 
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Gele bril ziet de website prima, de gele kleuren worden alleen wit. 
+  Zwarte bril: je ziet sowieso heel slecht door de bril, maar kan alles wel nog een beetje lezen. De p'tjes kunnen wel wat groter.
+  
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -96,11 +97,8 @@ Homepagina
   ### tweede helft homepagina:
     <img src="readme-images/breakdown2.png">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
   ### Detailpagina 
-  <img src="readme-images/detailpaginabreakdown.png" alt="detailpagina">
+  <img src="images/productpagina.png" alt="detailpagina">
 
 </details>
 
@@ -181,9 +179,7 @@ Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig g
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Alle kopjes en linkjes kloppen. De screenreader gaat alles langs en zegt overal iets bij  wat het inhoudt. 
 
 
   #### Muis en Toetsenbord 
@@ -193,13 +189,14 @@ Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig g
 
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+ Op de laagste stand van het shock apparaat is de website prima te bedienen. De hoogste stand heb ik niet uitgeprobeerd. Misschien is het dan beter als de knoppen iets groter zijn. 
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Gele bril: Je ziet alles prima. 
+  Zwarte bril: Je ziet niet goed, maar de teksten zijn wel te lezen. De p'tjes kunnen wat groter.
+  Witte bril met vlekken: Je ziet wazig, maar als je je concentreerd zie je alles wel prima.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -215,13 +212,13 @@ Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig g
   <summary>uitwerken voor 3e voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb nog wat dingen mooi gemaakt op mijn homepagina. Ik heb gridjes gemaakt van afbeeldingen en de h2 onder de afbeelding kunnen zetten. Ik vind het wel nog lastig om teksten te stylen in een afbeelding. Daar wil ik bij de meeting ook wat vragen over stellen. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Niga      | Thomas          | Kim    | Ralph 4        |
+  | Niga      | Thomas          | Kim    | Ralph         |
   | Alexander            | 
   | ontwerp van het uitklapmenu                      | tekst stylen in afbeelding| 
    | en dan ik dat    |
@@ -232,10 +229,10 @@ Code moet ik nog afmaken (html) en mijn readme bijwerken. We zijn vooral bezig g
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik ben best ver gekomen na deze meeting
+  - Ik moet de icoontjes er nog even goed in zetteen
+  - De laatste paar dingetjes afmaken van de homepagina en de tweede pagina
+  - Ik moet alleen nog even wat responsive dingetjes erin doen en dan ben ik klaar
 
 </details>
 

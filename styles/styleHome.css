@@ -1,0 +1,228 @@
+/**************/
+
+/* CSS REMEDY */
+
+/**************/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button,
+summary {
+    cursor: pointer;
+}
+
+
+
+h1 {
+    position: absolute;
+    left: -9999em;
+}
+
+/****************/
+
+/* eerste sectie met roze banner */
+
+/****************/
+
+section:first-of-type {
+    background-color: #E73E5F;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+    /*        display:flex;*/
+    /*    flex-direction: column;*/
+}
+
+em {
+    font-family: 'futura-pt', sans-serif;
+
+    font-weight: bold;
+
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 2em;
+
+
+
+}
+
+/****************/
+
+/* Topshop */
+
+/****************/
+
+section:nth-of-type(2) {
+    text-align: center;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+section:nth-of-type(2) a {
+    display: grid;
+    justify-items: center;
+}
+
+section:nth-of-type(2) button {
+    position: absolute;
+    bottom: 15%;
+
+    display: block;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+
+    background-color: black;
+
+    font-family: 'futura-pt', sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+section:nth-of-type(2) button:hover {
+ background-color: white;   
+color: black;    
+}
+
+section:nth-of-type(2) h2 {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    bottom: calc(15% + 2.75rem + 1rem);
+    /* 15% van de onderkant + hoogte button + witruimte */
+    text-align: center;
+    padding-right: .3em;
+    padding-left: .3em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+
+}
+
+
+/****************/
+
+/* Spotlight categorien */
+
+/****************/
+
+section:nth-of-type(3) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section:nth-of-type(3) ul {
+    /*    width: 23em;*/
+    display: grid;
+    grid-template-columns: minmax(auto, 16em) minmax(auto, 16em);
+    grid-gap: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+/****************/
+
+/* responsive voor groter scherm */
+
+/****************/
+
+@media (min-width:40em) {
+    section:nth-of-type(3) ul {
+        grid-template-columns: minmax(auto, 16em) minmax(auto, 16em) minmax(auto, 16em) minmax(auto, 16em);
+    }
+}
+
+section:nth-of-type(3) ul > li {
+    display: grid;
+}
+
+section:nth-of-type(3) p {
+    margin-top: 0em;
+}
+
+section:nth-of-type(3) img {
+    grid-row-start: 1;
+}
+
+
+
+
+
+
+/***************************/
+
+/* trending merken sectie */
+
+/***************************/
+
+section:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section:nth-of-type(4) h2 {
+    text-transform: uppercase;
+
+}
+
+
+section:nth-of-type(4) ul {
+    width: 30em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+/****************/
+
+/* Tommy jeans & Spooky season */
+
+/****************/
+
+section:nth-of-type(5) {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+section:nth-of-type(5) article {
+    display: flex;
+
+}
+
+section:nth-of-type(5) button {
+    border: solid 0.1em black ;
+    padding: 1em
+}
+
+section:nth-of-type(5) button:hover {
+    background-color: black;
+    color: white;
+}
+/****************/
+
+/* Asos premier */
+
+/****************/
+
+section:nth-of-type(6) {
+    background-image: url("../images/mobile-banner-1280x625.jpg");
+    background-size: cover;
+    height: 11em;
+}
